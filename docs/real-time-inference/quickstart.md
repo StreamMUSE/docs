@@ -69,7 +69,13 @@ ssh -L 8000:localhost:8988 user@server_ip
 
 #### Set Up Synthesizer
 
+本项目我们用的 soundfont 文件是 FluidR3_GM.sf2，所以需要先下载这个文件。
 
+下在完成后运行以下命令，来打开运行 fluidsynth。
+
+```bash
+fluidsynth 'PathToYourFluidR3_GMFile/FluidR3_GM.sf2'
+```
 
 #### 启动 Client 端程序
 
@@ -87,6 +93,11 @@ PYTHONPATH="$(pwd)" uv run app/client.py --injection-file input/mel/001.mid --in
 
 这行命令表示你使用了 midi input（默认），同时 inject 了一首歌，inject 的长度是 75 ticks，打开了 metronome。
 
+#### Notes
+
+你在运行 Client 程序的时候，如果你的系统正确识别了相应的 port，程序会把相应的 port 打印出来，你可能需要人工选择 input port 用哪个，output port 用哪个，
+机器自动 load 可能会出错。详情可以查看 [参数指南](parameter.md)。
+
 ## 测试API
 
 ```bash
@@ -97,5 +108,6 @@ curl -X POST http://localhost:8080/predict \
 
 ## 下一步
 
+- 查看 [参数指南](parameter.md) 了解更详细的参数配置
 - 查看 [配置指南](configuration.md) 了解详细配置选项
 - 查看 [API 参考](api-reference.md) 了解完整的API文档

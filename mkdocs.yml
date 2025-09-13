@@ -64,6 +64,7 @@ nav:
   - Real-Time Inference System:
     - 概述: real-time-inference/index.md
     - 快速开始: real-time-inference/quickstart.md
+    - 参数指南: real-time-inference/parameter.md
     - 系统架构: real-time-inference/architecture.md
     - 配置指南: real-time-inference/configuration.md
     - API 参考: real-time-inference/api-reference.md

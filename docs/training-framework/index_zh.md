@@ -1,6 +1,6 @@
-# 文档
+# Training Framework 概述
 
-[English](README.md) | [中文](README_zh.md)
+[English](index.md) | [中文](index_zh.md)
 
 欢迎来到模型训练框架文档！此目录包含框架的完整文档，包括架构规范、模块指南和使用示例。
 
@@ -13,8 +13,8 @@
 
 ### 📚 模块文档
 
-- **[模块概览 (中文)](modules/README_zh.md)** - 所有框架模块的中文索引
-- **[模块概览 (English)](modules/README.md)** - 所有框架模块的英文索引
+- **[模块概览 (中文)](modules/index_zh.md)** - 所有框架模块的中文索引
+- **[模块概览 (English)](modules/index.md)** - 所有框架模块的英文索引
 
 #### 核心模块
 
@@ -36,6 +36,7 @@
 
 ## 快速开始
 
+1. **想要立刻上手训练？** 从[快速开始](quickstart_zh.md)直接上手训练模型
 1. **初次使用框架？** 从[项目规范](architecture_zh.md)开始了解设计原则
 2. **查找特定模块？** 查看[模块概览](modules/README_zh.md)获取详细指南
 3. **需要实现示例？** 每个模块都包含使用示例和配置样本

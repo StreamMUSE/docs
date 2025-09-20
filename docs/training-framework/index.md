@@ -1,6 +1,6 @@
 # Documentation
 
-[English](README.md) | [中文](README_zh.md)
+[English](index.md) | [中文](index_zh.md)
 
 Welcome to the Model Training Framework documentation! This directory contains comprehensive documentation for the framework, including architecture specifications, module guides, and usage examples.
 
@@ -13,8 +13,8 @@ Welcome to the Model Training Framework documentation! This directory contains c
 
 ### 📚 Module Documentation
 
-- **[Modules Overview (中文)](modules/README_zh.md)** - Index of all framework modules in Chinese
-- **[Modules Overview (English)](modules/README.md)** - Index of all framework modules in English
+- **[Modules Overview (中文)](modules/index_zh.md)** - Index of all framework modules in Chinese
+- **[Modules Overview (English)](modules/index.md)** - Index of all framework modules in English
 
 #### Core Modules
 
